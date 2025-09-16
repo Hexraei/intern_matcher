@@ -30,6 +30,7 @@ The app uses **MiniLM sentence embeddings** and **cosine similarity** to match i
    ```bash
    python -m venv venv
    source venv/bin/activate   # (Windows: venv\Scripts\activate)
+  ```
 3. Install dependencies:
    ```bash
    pip install -r requirements.txt
