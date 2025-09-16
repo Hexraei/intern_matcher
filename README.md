@@ -16,12 +16,13 @@ The app uses **MiniLM sentence embeddings** and **cosine similarity** to match i
 - Results displayed in **descending order of relevance**.
 
 ## 📂 Project Structure
-intern_matcher/
-│── app.py # Flask backend & frontend templates
-│── requirements.txt # Python dependencies
-│── data/
-│ ├── interns.csv # Example interns dataset
-│ ├── posts.csv # Example posts dataset
+```bash
+  intern_matcher/
+  │── app.py # Flask backend & frontend templates
+  │── requirements.txt # Python dependencies
+  │── data/
+  │ ├── interns.csv # Example interns dataset
+  │ ├── posts.csv # Example posts dataset
 
 ## 🛠️ Setup
 1. Clone or download the repo.
@@ -29,3 +30,10 @@ intern_matcher/
    ```bash
    python -m venv venv
    source venv/bin/activate   # (Windows: venv\Scripts\activate)
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+4. Run the app:
+  ```bash
+  python app.py
+5. Open http://127.0.0.1:5000/ in your browser.
