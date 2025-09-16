@@ -34,7 +34,9 @@ The app uses **MiniLM sentence embeddings** and **cosine similarity** to match i
 3. Install dependencies:
    ```bash
    pip install -r requirements.txt
+  ```
 4. Run the app:
   ```bash
   python app.py
+```
 5. Open http://127.0.0.1:5000/ in your browser.
