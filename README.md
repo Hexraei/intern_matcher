@@ -23,7 +23,6 @@ intern_matcher/
 │ ├── interns.csv # Example interns dataset
 │ ├── posts.csv # Example posts dataset
 
-
 ## 🛠️ Setup
 1. Clone or download the repo.
 2. Create a virtual environment:
